@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\KJH\\CsharpWPF\\DataGridTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56A66655-206A-47E8-A9EE-36FAD2277412}|DataGridTest\\DataGridTest.csproj|c:\\kjh\\csharpwpf\\datagridtest\\datagridtest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56A66655-206A-47E8-A9EE-36FAD2277412}|DataGridTest\\DataGridTest.csproj|solutionrelative:datagridtest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56A66655-206A-47E8-A9EE-36FAD2277412}|DataGridTest\\DataGridTest.csproj|c:\\kjh\\csharpwpf\\datagridtest\\datagridtest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{56A66655-206A-47E8-A9EE-36FAD2277412}|DataGridTest\\DataGridTest.csproj|solutionrelative:datagridtest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A66655-206A-47E8-A9EE-36FAD2277412}|DataGridTest\\DataGridTest.csproj|c:\\kjh\\csharpwpf\\datagridtest\\datagridtest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A66655-206A-47E8-A9EE-36FAD2277412}|DataGridTest\\DataGridTest.csproj|solutionrelative:datagridtest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\KJH\\CsharpWPF\\DataGridTest\\DataGridTest\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DataGridTest\\MainWindow.xaml",
@@ -62,13 +62,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\KJH\\CsharpWPF\\DataGridTest\\DataGridTest\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "DataGridTest\\MainWindow.xaml.cs",
               "ToolTip": "C:\\KJH\\CsharpWPF\\DataGridTest\\DataGridTest\\MainWindow.xaml.cs",
               "RelativeToolTip": "DataGridTest\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAYwD4AAAAFAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-25T02:42:14.352Z",
               "EditorCaption": ""
