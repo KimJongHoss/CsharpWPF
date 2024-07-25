@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <DockPanel Margin="10">
+            <WrapPanel HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="0,0,0,10">
+                <Button x:Name="btnOpenFile" Width="356" Height="320" Click="btnOpenFile_Click">
 
+                    <Image x:Name="imgViewer"/>
+
+                </Button>
+            </WrapPanel>
+        </DockPanel>
     </Grid>
 </Window>
