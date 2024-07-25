@@ -16,6 +16,5 @@
                 <DataGridTextColumn Header="비고" Binding="{Binding etc}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
-
     </Grid>
 </Window>

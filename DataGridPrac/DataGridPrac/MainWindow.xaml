@@ -14,9 +14,9 @@
                 <DataGridTextColumn Header="설명" Binding="{Binding explain}" Width="180"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button x:Name="fileOpenButton" Content="FileOpen" Margin="10,10,612,354"/>
-        <Label Content="File path" HorizontalAlignment="Left" Margin="195,32,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.804,-0.968" Width="185"/>
-        <Button x:Name="getDataButton" Content="Get Data" HorizontalAlignment="Left" Margin="542,17,0,0" VerticalAlignment="Top" Height="63" Width="205"/>
+        <Button x:Name="fileOpenButton" Content="FileOpen" Margin="10,10,612,354" Click="fileOpenButton_Click"/>
+        <Label x:Name="filePathLabel" Content="File path" HorizontalAlignment="Left" Margin="195,32,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.804,-0.968"/>
+        <Button x:Name="getDataButton" Content="Get Data" HorizontalAlignment="Left" Margin="542,17,0,0" VerticalAlignment="Top" Height="63" Width="205" Click="getDataButton_Click"/>
 
     </Grid>
 </Window>

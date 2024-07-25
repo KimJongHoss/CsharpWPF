@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,6 +50,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\KJH\\CsharpWPF\\DataGridPrac\\DataGridPrac\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DataGridPrac\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\KJH\\CsharpWPF\\DataGridPrac\\DataGridPrac\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DataGridPrac\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAFEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:50:47.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\KJH\\CsharpWPF\\DataGridPrac\\DataGridPrac\\MainWindow.xaml",
@@ -58,19 +71,6 @@
               "RelativeToolTip": "DataGridPrac\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-25T03:50:48.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\KJH\\CsharpWPF\\DataGridPrac\\DataGridPrac\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DataGridPrac\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\KJH\\CsharpWPF\\DataGridPrac\\DataGridPrac\\MainWindow.xaml.cs",
-              "RelativeToolTip": "DataGridPrac\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxQAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T03:50:47.006Z",
               "EditorCaption": ""
             }
           ]
