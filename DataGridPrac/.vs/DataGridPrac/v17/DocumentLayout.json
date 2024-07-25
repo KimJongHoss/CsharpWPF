@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\KJH\\CsharpWPF\\DataGridPrac\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44143228-5EF6-46F6-BB77-CD855C7E88F1}|DataGridPrac\\DataGridPrac.csproj|c:\\kjh\\csharpwpf\\datagridprac\\datagridprac\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{44143228-5EF6-46F6-BB77-CD855C7E88F1}|DataGridPrac\\DataGridPrac.csproj|solutionrelative:datagridprac\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44143228-5EF6-46F6-BB77-CD855C7E88F1}|DataGridPrac\\DataGridPrac.csproj|c:\\kjh\\csharpwpf\\datagridprac\\datagridprac\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44143228-5EF6-46F6-BB77-CD855C7E88F1}|DataGridPrac\\DataGridPrac.csproj|solutionrelative:datagridprac\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\KJH\\CsharpWPF\\DataGridPrac\\DataGridPrac\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DataGridPrac\\MainWindow.xaml",
+              "ToolTip": "C:\\KJH\\CsharpWPF\\DataGridPrac\\DataGridPrac\\MainWindow.xaml",
+              "RelativeToolTip": "DataGridPrac\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-25T03:50:48.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\KJH\\CsharpWPF\\DataGridPrac\\DataGridPrac\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DataGridPrac\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\KJH\\CsharpWPF\\DataGridPrac\\DataGridPrac\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DataGridPrac\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T03:50:47.006Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

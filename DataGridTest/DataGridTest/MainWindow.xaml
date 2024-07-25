@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <DataGrid x:Name="StudentList" AutoGenerateColumns="False" CanUserAddRows="False" MouseRightButtonDown="StudentList_MouseRightButtonDown">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="이름" Binding="{Binding name}" Width="130"/>
+                <DataGridTextColumn Header="학번" Binding="{Binding id}" Width="130"/>
+                <DataGridTextColumn Header="학과" Binding="{Binding major}" Width="180"/>
+                <DataGridTextColumn Header="학년" Binding="{Binding grade}" Width="100"/>
+                <DataGridTextColumn Header="비고" Binding="{Binding etc}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
 
     </Grid>
 </Window>
