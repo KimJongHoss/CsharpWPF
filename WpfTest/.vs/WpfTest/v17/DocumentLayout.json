@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\KJH\\CsharpWPF\\WpfTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D72FB206-2AF0-4EA2-B1CE-09717D6C829A}|WpfTest\\WpfTest.csproj|C:\\KJH\\CsharpWPF\\WpfTest\\wpftest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D72FB206-2AF0-4EA2-B1CE-09717D6C829A}|WpfTest\\WpfTest.csproj|solutionrelative:wpftest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D72FB206-2AF0-4EA2-B1CE-09717D6C829A}|WpfTest\\WpfTest.csproj|c:\\kjh\\csharpwpf\\wpftest\\wpftest\\greetings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72FB206-2AF0-4EA2-B1CE-09717D6C829A}|WpfTest\\WpfTest.csproj|solutionrelative:wpftest\\greetings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D72FB206-2AF0-4EA2-B1CE-09717D6C829A}|WpfTest\\WpfTest.csproj|c:\\kjh\\csharpwpf\\wpftest\\wpftest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D72FB206-2AF0-4EA2-B1CE-09717D6C829A}|WpfTest\\WpfTest.csproj|solutionrelative:wpftest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D72FB206-2AF0-4EA2-B1CE-09717D6C829A}|WpfTest\\WpfTest.csproj|c:\\kjh\\csharpwpf\\wpftest\\wpftest\\greetings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D72FB206-2AF0-4EA2-B1CE-09717D6C829A}|WpfTest\\WpfTest.csproj|solutionrelative:wpftest\\greetings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D72FB206-2AF0-4EA2-B1CE-09717D6C829A}|WpfTest\\WpfTest.csproj|c:\\kjh\\csharpwpf\\wpftest\\wpftest\\resource.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{D72FB206-2AF0-4EA2-B1CE-09717D6C829A}|WpfTest\\WpfTest.csproj|solutionrelative:wpftest\\resource.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D72FB206-2AF0-4EA2-B1CE-09717D6C829A}|WpfTest\\WpfTest.csproj|C:\\KJH\\CsharpWPF\\WpfTest\\wpftest\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +58,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Greetings.xaml.cs",
+              "DocumentMoniker": "C:\\KJH\\CsharpWPF\\WpfTest\\WpfTest\\Greetings.xaml.cs",
+              "RelativeDocumentMoniker": "WpfTest\\Greetings.xaml.cs",
+              "ToolTip": "C:\\KJH\\CsharpWPF\\WpfTest\\WpfTest\\Greetings.xaml.cs",
+              "RelativeToolTip": "WpfTest\\Greetings.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDgAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T00:29:04.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Resource.resx",
+              "DocumentMoniker": "C:\\KJH\\CsharpWPF\\WpfTest\\WpfTest\\Resource.resx",
+              "RelativeDocumentMoniker": "WpfTest\\Resource.resx",
+              "ToolTip": "C:\\KJH\\CsharpWPF\\WpfTest\\WpfTest\\Resource.resx",
+              "RelativeToolTip": "WpfTest\\Resource.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-07-25T00:21:06.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Greetings.xaml",
+              "DocumentMoniker": "C:\\KJH\\CsharpWPF\\WpfTest\\WpfTest\\Greetings.xaml",
+              "RelativeDocumentMoniker": "WpfTest\\Greetings.xaml",
+              "ToolTip": "C:\\KJH\\CsharpWPF\\WpfTest\\WpfTest\\Greetings.xaml",
+              "RelativeToolTip": "WpfTest\\Greetings.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-24T01:37:59.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\KJH\\CsharpWPF\\WpfTest\\WpfTest\\App.xaml",
               "RelativeDocumentMoniker": "WpfTest\\App.xaml",
@@ -62,31 +103,6 @@
               "RelativeToolTip": "WpfTest\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-23T04:37:03.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\KJH\\CsharpWPF\\WpfTest\\WpfTest\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WpfTest\\MainWindow.xaml",
-              "ToolTip": "C:\\KJH\\CsharpWPF\\WpfTest\\WpfTest\\MainWindow.xaml",
-              "RelativeToolTip": "WpfTest\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-23T04:34:29.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\KJH\\CsharpWPF\\WpfTest\\WpfTest\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfTest\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\KJH\\CsharpWPF\\WpfTest\\WpfTest\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WpfTest\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAiwCIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T04:34:28.554Z",
               "EditorCaption": ""
             }
           ]

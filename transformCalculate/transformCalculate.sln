@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "transformCalculate", "transformCalculate\transformCalculate.csproj", "{9FC821A1-BF6B-487E-8751-979461A1CE31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FC821A1-BF6B-487E-8751-979461A1CE31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC821A1-BF6B-487E-8751-979461A1CE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC821A1-BF6B-487E-8751-979461A1CE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC821A1-BF6B-487E-8751-979461A1CE31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57B745C5-06B5-435B-8715-BF820CC64DEC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+C:\KJH\CsharpWPF\WpfTest\WpfTest\bin\Release\WpfTest.exe.config
+C:\KJH\CsharpWPF\WpfTest\WpfTest\bin\Release\WpfTest.exe
+C:\KJH\CsharpWPF\WpfTest\WpfTest\bin\Release\WpfTest.pdb
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.csproj.AssemblyReference.cache
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\Greetings.g.cs
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\App.g.cs
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest_MarkupCompile.cache
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest_MarkupCompile.lref
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\Greetings.baml
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.g.resources
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.Properties.Resources.resources
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.csproj.GenerateResource.cache
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.csproj.CoreCompileInputs.cache
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.exe
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.pdb
