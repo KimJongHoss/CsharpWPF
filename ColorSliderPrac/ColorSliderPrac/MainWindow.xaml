@@ -1,0 +1,35 @@
+﻿<Window x:Class="ColorSliderPrac.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ColorSliderPrac"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="MainGrid">
+        <GroupBox Header="Color Type" Margin="54,44,54,232">
+            <Grid>
+                <RadioButton x:Name="originalButton" Content="Original" HorizontalAlignment="Left" VerticalAlignment="Center" Height="19" Margin="105,0,0,0" GroupName="1" IsChecked="True"/>
+                <RadioButton x:Name="GrayToneButton" Content="Gray Tone" HorizontalAlignment="Center" VerticalAlignment="Center" Height="19" GroupName="1" Checked="GrayToneButton_Checked"/>
+                <RadioButton x:Name="InvertButton" Content="Invert" HorizontalAlignment="Left" VerticalAlignment="Center" Height="19" Margin="510,0,0,0" GroupName="1" Checked="InvertButton_Checked" />
+
+            </Grid>
+        </GroupBox>
+        <Slider x:Name="redSlider" Maximum="225" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Height="17" ValueChanged="redSliderValueChanged" Margin="90,237,0,0"/>
+        <Label x:Name="lable1" Content="Red" HorizontalAlignment="Left" Margin="54,233,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.379,1.36"/>
+        <Label Content="0" HorizontalAlignment="Left" Margin="87,250,0,0" VerticalAlignment="Top"/>
+        <Label Content="225" HorizontalAlignment="Left" Margin="266,254,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="GreenSlider" Maximum="225" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="90,309,0,0" VerticalAlignment="Top" Width="196" Height="17" ValueChanged="GreenSliderValueChanged"/>
+        <Label x:Name="lable2" Content="Green" HorizontalAlignment="Left" Margin="43,305,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.379,1.36"/>
+        <Label Content="0" HorizontalAlignment="Left" Margin="87,330,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.638,0.162"/>
+        <Label Content="225" HorizontalAlignment="Left" Margin="264,325,0,0" VerticalAlignment="Top"/>
+        <Slider x:Name="BlueSlider" Maximum="225" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="90,390,0,0" VerticalAlignment="Top" Width="201" Height="17" ValueChanged="BlueSlider_ValueChanged"/>
+        <Label x:Name="lable3" Content="Blue" HorizontalAlignment="Left" Margin="48,381,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.379,1.36"/>
+        <Label Content="0" HorizontalAlignment="Left" Margin="87,408,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.638,0.162"/>
+        <Label Content="225" HorizontalAlignment="Left" Margin="260,402,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="redLabel" Content="0" HorizontalAlignment="Left" Margin="88,206,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.324,0.806"/>
+        <Label x:Name="GreenLabel" Content="0" HorizontalAlignment="Left" Margin="88,281,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="BlueLabel" Content="0" HorizontalAlignment="Left" Margin="87,359,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

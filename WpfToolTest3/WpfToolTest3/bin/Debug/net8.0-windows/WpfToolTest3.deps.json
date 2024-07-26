@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WpfToolTest3/1.0.0": {
+        "runtime": {
+          "WpfToolTest3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfToolTest3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
