@@ -93,5 +93,16 @@ namespace WpfToolTest3
         {
             listBox1.Items.Add("악어");
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            //webBrowser11.Navigate("https://www.google.com");
+            webBrowser11.CoreWebView2.Navigate("https://www.google.com");
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            webBrowser11.CoreWebView2.Navigate(addresstextBox.Text);
+        }
     }
 }

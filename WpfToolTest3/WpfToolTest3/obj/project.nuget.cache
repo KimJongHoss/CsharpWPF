@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AaHjoKxwHbs=",
+  "dgSpecHash": "NSByB0dOmGc=",
   "success": true,
   "projectFilePath": "C:\\KJH\\CsharpWPF\\WpfToolTest3\\WpfToolTest3\\WpfToolTest3.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jongho\\.nuget\\packages\\microsoft.web.webview2\\1.0.2592.51\\microsoft.web.webview2.1.0.2592.51.nupkg.sha512"
+  ],
   "logs": []
 }

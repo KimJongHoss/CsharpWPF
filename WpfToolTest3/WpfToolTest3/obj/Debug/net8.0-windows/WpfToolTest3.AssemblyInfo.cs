@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfToolTest3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b29e8abf03cdf9320532fac296546765ecc6d03e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63c462e1da39d85cf16d73042875df339a2d0403")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfToolTest3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfToolTest3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
