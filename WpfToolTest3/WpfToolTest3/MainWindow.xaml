@@ -37,6 +37,18 @@
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
         </TabControl>
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" >
+            <ComboBoxItem Content="Coffee"/>
+            <ComboBoxItem Content="Milk"/>
+            <ComboBoxItem Content="Hot Choco"/>
+        </ComboBox>
+        <Button Content="tomato" HorizontalAlignment="Left" Margin="158,12,0,0" VerticalAlignment="Top" Width="62" Click="Button_Click_1"/>
+        <ListBox x:Name="listBox1" Margin="10,37,660,217">
+            <ListBoxItem>곰</ListBoxItem>
+            <ListBoxItem>멍멍이</ListBoxItem>
+            <ListBoxItem>야옹이</ListBoxItem>
+        </ListBox>
+        <Button Content="악어추가" HorizontalAlignment="Left" Margin="158,74,0,0" VerticalAlignment="Top" Height="26" Width="62" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

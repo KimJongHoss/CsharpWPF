@@ -63,7 +63,7 @@ namespace ColorSliderPrac
             }
             else if (InvertButton.IsChecked == true)
             {
-                byte max = 225;
+                byte max = 255;
                 int br = max - r;
                 int bg = max - g;
                 int bb = max - b;
