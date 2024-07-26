@@ -7,4 +7,4 @@
  4) DataGridTest : DataGrid를 활용한 예제입니다.(학생 목록 불러오기)
  5) DataGridPrac : DataGrid를 활용한 실습입니다.(FIle Open/Get Data)
  6) WpfToolTest3 : 탭컨트롤, 그룹박스, 라디오버튼, 슬라이더 종합 예제입니다.
- 7) 
+ 7) ColorSliderPrac : 슬라이더를 이용한 컬러 슬라이더 만들기 실습입니다.
