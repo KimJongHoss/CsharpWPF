@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,6 +50,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\KJH\\CsharpWPF\\WpfToolTest3\\WpfToolTest3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfToolTest3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\KJH\\CsharpWPF\\WpfToolTest3\\WpfToolTest3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfToolTest3\\MainWindow.xaml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAuwEEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T00:31:04.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\KJH\\CsharpWPF\\WpfToolTest3\\WpfToolTest3\\MainWindow.xaml",
@@ -58,19 +71,6 @@
               "RelativeToolTip": "WpfToolTest3\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-26T00:31:06.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\KJH\\CsharpWPF\\WpfToolTest3\\WpfToolTest3\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfToolTest3\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\KJH\\CsharpWPF\\WpfToolTest3\\WpfToolTest3\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WpfToolTest3\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T00:31:04.405Z",
               "EditorCaption": ""
             }
           ]

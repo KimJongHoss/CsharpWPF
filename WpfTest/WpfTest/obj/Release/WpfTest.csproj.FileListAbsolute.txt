@@ -13,3 +13,5 @@ C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.csproj.GenerateResource.cac
 C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.csproj.CoreCompileInputs.cache
 C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.exe
 C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.pdb
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest_Content.g.cs
+C:\KJH\CsharpWPF\WpfTest\WpfTest\obj\Release\WpfTest.Resource.resources

@@ -8,59 +8,84 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TabControl Margin="400,0,0,0">
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5" RenderTransformOrigin="0.466,0.521">
-                    <GroupBox Header="Option" Margin="54,44,54,232">
-                        <Grid>
-                            <RadioButton Content="RadioButton1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="21" Margin="10,33,0,0" GroupName="1" IsChecked="True"/>
-                            <RadioButton Content="RadioButton2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="42" Margin="150,33,0,0" GroupName="1"/>
-                            <RadioButton Content="RadioButton3" HorizontalAlignment="Left" VerticalAlignment="Top" Height="42" Margin="10,60,0,0" GroupName="2" Checked="RadioButton_Checked" Unchecked="RadioButton_Unchecked"/>
-                            <RadioButton Content="RadioButton4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="42" Margin="150,60,0,0" GroupName="2"/>
-                        </Grid>
-                    </GroupBox>
-                    <Button Content="Test" HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top" Height="29" Width="55" Click="Button_Click"/>
-                    <Slider Maximum="100" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="64,203,0,0" VerticalAlignment="Top" Width="195" Height="17" ValueChanged="Slider_ValueChanged"/>
-                    <Label x:Name="lable1" Content="Red" HorizontalAlignment="Left" Margin="62,179,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.379,1.36"/>
-                    <Label Content="0" HorizontalAlignment="Left" Margin="62,225,0,0" VerticalAlignment="Top"/>
-                    <Label Content="100" HorizontalAlignment="Left" Margin="237,220,0,0" VerticalAlignment="Top"/>
-                    <Slider Maximum="100" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="62,277,0,0" VerticalAlignment="Top" Width="195" Height="17" ValueChanged="Slider_ValueChanged"/>
-                    <Label x:Name="lable2" Content="Green" HorizontalAlignment="Left" Margin="60,251,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.379,1.36"/>
-                    <Label Content="0" HorizontalAlignment="Left" Margin="60,294,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.638,0.162"/>
-                    <Label Content="100" HorizontalAlignment="Left" Margin="237,294,0,0" VerticalAlignment="Top"/>
-                    <Slider Maximum="100" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="60,351,0,0" VerticalAlignment="Top" Width="195" Height="17" ValueChanged="Slider_ValueChanged"/>
-                    <Label x:Name="lable3" Content="Blue" HorizontalAlignment="Left" Margin="60,320,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.379,1.36"/>
-                    <Label Content="0" HorizontalAlignment="Left" Margin="57,370,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.638,0.162"/>
-                    <Label Content="100" HorizontalAlignment="Left" Margin="237,373,0,0" VerticalAlignment="Top"/>
-                </Grid>
-            </TabItem>
-            <TabItem x:Name="addressTextBox" Header="TabItem">
-                <Grid  Background="#FFE5E5E5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
 
-                    <DockPanel>
-                        <wv2:WebView2 Name="webBrowser11"
-                  Source="https://www.microsoft.com" Height="316"
-   />
-                    </DockPanel>
-                    <TextBox x:Name="addresstextBox" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="주소입력" VerticalAlignment="Top" Width="200"/>
-                    <Button x:Name="goButton" Content="Go" HorizontalAlignment="Left" Margin="210,10,0,0" VerticalAlignment="Top" Height="18" Click="Button_Click_4"/>
+        <Grid Margin="0,0,296,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" MinWidth="100"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
 
-                </Grid>
-            </TabItem>
-        </TabControl>
-        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" >
-            <ComboBoxItem Content="Coffee"/>
-            <ComboBoxItem Content="Milk"/>
-            <ComboBoxItem Content="Hot Choco"/>
-        </ComboBox>
-        <Button Content="tomato" HorizontalAlignment="Left" Margin="158,12,0,0" VerticalAlignment="Top" Width="62" Click="Button_Click_1"/>
-        <ListBox x:Name="listBox1" Margin="10,37,660,217">
-            <ListBoxItem>곰</ListBoxItem>
-            <ListBoxItem>멍멍이</ListBoxItem>
-            <ListBoxItem>야옹이</ListBoxItem>
-        </ListBox>
-        <Button Content="악어추가" HorizontalAlignment="Left" Margin="158,74,0,0" VerticalAlignment="Top" Height="26" Width="62" Click="Button_Click_2"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="305,74,0,0" VerticalAlignment="Top" Height="26" Width="75" Click="Button_Click_3"/>
+            <ComboBox x:Name="comboBox1" Grid.Column="0" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="89" Height="22">
+                <ComboBoxItem Content="Coffee"/>
+                <ComboBoxItem Content="Milk"/>
+                <ComboBoxItem Content="Hot Choco"/>
+            </ComboBox>
+
+            <Button Content="tomato" HorizontalAlignment="Center" Margin="0,222,0,0" VerticalAlignment="Top" Width="98" Click="Button_Click_1" Height="20"/>
+
+            <ListBox x:Name="listBox1" Grid.Column="0" Margin="10,37,0,217">
+                <ListBoxItem>곰</ListBoxItem>
+                <ListBoxItem>멍멍이</ListBoxItem>
+                <ListBoxItem>야옹이</ListBoxItem>
+            </ListBox>
+
+            <Button Content="악어추가" HorizontalAlignment="Center" Margin="0,247,0,0" VerticalAlignment="Top" Height="26" Width="98" Click="Button_Click_2"/>
+
+            <Button Content="Button" HorizontalAlignment="Center" Margin="0,278,0,0" VerticalAlignment="Top" Height="26" Width="98" Click="Button_Click_3"/>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <TabControl>
+                <TabItem Header="TabItem">
+                    <Grid Background="#FFE5E5E5" RenderTransformOrigin="0.466,0.521">
+                        <GroupBox Header="Option" Margin="54,44,54,232">
+                            <Grid>
+                                <RadioButton Content="RadioButton1" HorizontalAlignment="Left" VerticalAlignment="Top" Height="21" Margin="10,33,0,0" GroupName="1" IsChecked="True"/>
+                                <RadioButton Content="RadioButton2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="42" Margin="150,33,0,0" GroupName="1"/>
+                                <RadioButton Content="RadioButton3" HorizontalAlignment="Left" VerticalAlignment="Top" Height="42" Margin="10,60,0,0" GroupName="2" Checked="RadioButton_Checked" Unchecked="RadioButton_Unchecked"/>
+                                <RadioButton Content="RadioButton4" HorizontalAlignment="Left" VerticalAlignment="Top" Height="42" Margin="150,60,0,0" GroupName="2"/>
+                            </Grid>
+                        </GroupBox>
+                        <Button Content="Test" HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top" Height="29" Width="55" Click="Button_Click"/>
+                        <Slider Maximum="100" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="64,203,0,0" VerticalAlignment="Top" Width="195" Height="17" ValueChanged="Slider_ValueChanged"/>
+                        <Label x:Name="lable1" Content="Red" HorizontalAlignment="Left" Margin="62,179,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.379,1.36"/>
+                        <Label Content="0" HorizontalAlignment="Left" Margin="62,225,0,0" VerticalAlignment="Top"/>
+                        <Label Content="100" HorizontalAlignment="Left" Margin="237,220,0,0" VerticalAlignment="Top"/>
+                        <Slider Maximum="100" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="62,277,0,0" VerticalAlignment="Top" Width="195" Height="17" ValueChanged="Slider_ValueChanged"/>
+                        <Label x:Name="lable2" Content="Green" HorizontalAlignment="Left" Margin="60,251,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.379,1.36"/>
+                        <Label Content="0" HorizontalAlignment="Left" Margin="60,294,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.638,0.162"/>
+                        <Label Content="100" HorizontalAlignment="Left" Margin="237,294,0,0" VerticalAlignment="Top"/>
+                        <Slider Maximum="100" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" HorizontalAlignment="Left" Margin="60,351,0,0" VerticalAlignment="Top" Width="195" Height="17" ValueChanged="Slider_ValueChanged"/>
+                        <Label x:Name="lable3" Content="Blue" HorizontalAlignment="Left" Margin="60,320,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.379,1.36"/>
+                        <Label Content="0" HorizontalAlignment="Left" Margin="57,370,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.638,0.162"/>
+                        <Label Content="100" HorizontalAlignment="Left" Margin="237,373,0,0" VerticalAlignment="Top"/>
+                    </Grid>
+                </TabItem>
+                <TabItem x:Name="addressTextBox" Header="TabItem">
+                    <Grid Background="#FFE5E5E5">
+                        <DockPanel>
+                            <wv2:WebView2 Name="webBrowser11" Source="https://www.microsoft.com" Height="324"/>
+                        </DockPanel>
+                        <TextBox x:Name="addresstextBox" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="https://www.microsoft.com" VerticalAlignment="Top" Width="200" Height="24"/>
+                        <Button x:Name="goButton" Content="Go" HorizontalAlignment="Left" Margin="210,10,0,0" VerticalAlignment="Top" Height="24" Click="Button_Click_4" Width="25"/>
+                        <Button x:Name="forwardButton" Content="Forward" HorizontalAlignment="Left" Margin="330,7,0,0" VerticalAlignment="Top" Height="25" Width="54" Click="forwardButton_Click"/>
+                        <Button x:Name="backButton" Content="Back" HorizontalAlignment="Left" Margin="271,7,0,0" VerticalAlignment="Top" Width="54" Height="25" Click="backButton_Click"/>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+
+        <Grid Grid.Column="0" Margin="104,0,0,0">
+            <ListBox x:Name="favoriteListBox" Margin="0,70,0,0" RenderTransformOrigin="0.465,0.728"/>
+            <RadioButton x:Name="addFavoriteButton" Content="Add" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" IsChecked="True"/>
+            <RadioButton x:Name="loadFavoriteBotton" Content="Load" HorizontalAlignment="Left" Margin="56,42,0,0" VerticalAlignment="Top"/>
+            <Button x:Name="favoriteButton" Content="Favorite" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="69" Click="favoriteButton_Click"/>
+        </Grid>
+
 
     </Grid>
 </Window>

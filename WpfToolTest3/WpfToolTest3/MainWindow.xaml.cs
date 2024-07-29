@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -7,7 +8,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace WpfToolTest3
 {
@@ -16,9 +16,65 @@ namespace WpfToolTest3
     /// </summary>
     public partial class MainWindow : Window
     {
+        private string filePath;
         public MainWindow()
         {
             InitializeComponent();
+            InitializeWebViewSource();
+
+            // 사용자의 AppData Roaming 폴더 경로 설정
+            string desktopFolder = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string folderPath = Path.Combine(desktopFolder, "favoriteURLLIst");
+
+            // 폴더가 존재하지 않으면 생성
+            Directory.CreateDirectory(folderPath);
+            // 파일 경로 설정 (예: 사용자이름 폴더 내의 data.txt 파일)
+            filePath = Path.Combine(folderPath, "favoriteFiles.fvr");
+
+            // historyArray 초기화 
+            List<string> startList = MainWindow.LoadArrayFromFile(filePath);
+
+
+
+            foreach (string item in startList)
+            {
+                favoriteListBox.Items.Add(item);
+                Console.WriteLine("프로그램 시작시 startList의 아이템들 : " + item);
+            }
+
+            // Closing 이벤트 핸들러 추가
+            this.Closing += Window_Closing;
+
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            try
+            {
+                // ListBox 항목 저장
+                SaveArrayToFile(filePath, favoriteListBox.Items.Cast<string>().ToList());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("파일을 저장하는 도중 오류가 발생했습니다: " + ex.Message);
+            }
+        }
+
+        
+
+        public static void SaveArrayToFile(string path, List<string> data)
+        {
+            File.WriteAllLines(path, data);
+        }
+
+        public static List<string> LoadArrayFromFile(string path)
+        {
+            List<string> result = new List<string>();
+            if (File.Exists(path))
+            {
+                result.AddRange(File.ReadAllLines(path));
+            }
+            return result;
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
@@ -100,9 +156,39 @@ namespace WpfToolTest3
             webBrowser11.CoreWebView2.Navigate("https://www.google.com");
         }
 
-        private void Button_Click_4(object sender, RoutedEventArgs e)
+        private void Button_Click_4(object sender, RoutedEventArgs e) //go 버튼 눌렀을 때 이벤트
         {
             webBrowser11.CoreWebView2.Navigate(addresstextBox.Text);
+        }
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            webBrowser11.CoreWebView2.GoBack();
+        }
+
+        private void forwardButton_Click(object sender, RoutedEventArgs e)
+        {
+            webBrowser11.CoreWebView2.GoForward();
+        }
+
+       
+
+        private void InitializeWebViewSource()
+        {
+            // TextBox의 텍스트를 WebView2의 Source로 설정
+            webBrowser11.Source = new Uri(addresstextBox.Text);
+        }
+
+        private void favoriteButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (addFavoriteButton.IsChecked == true)//add일때
+            {
+                favoriteListBox.Items.Add(addresstextBox.Text);
+            }
+            if (loadFavoriteBotton.IsChecked == true)//load일때
+            {
+                webBrowser11.CoreWebView2.Navigate(favoriteListBox.SelectedItem.ToString());
+            }
         }
     }
 }

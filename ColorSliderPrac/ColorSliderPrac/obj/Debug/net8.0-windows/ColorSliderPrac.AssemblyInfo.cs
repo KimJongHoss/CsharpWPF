@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ColorSliderPrac")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+263a0915ef7e54be266fb8e23e0466b9c143379c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+049b2f7f40096c84927eb6c99d9e8c08b5a4eee5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ColorSliderPrac")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ColorSliderPrac")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
