@@ -35,12 +35,10 @@ namespace DataGridPrac
 
         private void fileOpenButton_Click(object sender, RoutedEventArgs e)
         {
-
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Multiselect = true;
             openFileDialog.Filter = "CSV 파일 (*.csv)|*.csv|모든 파일 (*.*)|*.*";
             openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-
             if (openFileDialog.ShowDialog() == true)
             {
                 string selectedFile = openFileDialog.FileNames[0];
@@ -72,14 +70,12 @@ namespace DataGridPrac
                                 datas.Add(data);
                             }
                         }
-
                         foreach (Data data in datas)
                         {
                             Console.WriteLine(data.name);
                         }
                         dataGrid1.ItemsSource = datas;
                         filePathLabel.Content = openFileDialog.FileName;
-                        
                     }
                 }
                 catch (Exception ex)
@@ -87,8 +83,6 @@ namespace DataGridPrac
                     MessageBox.Show("파일을 읽는 중 오류가 발생했습니다: " + ex.Message);
                 }
             }
-           
-
         }
 
         private void getDataButton_Click(object sender, RoutedEventArgs e)
