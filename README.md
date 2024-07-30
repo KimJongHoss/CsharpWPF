@@ -10,3 +10,4 @@
  7) ColorSliderPrac : 슬라이더를 이용한 컬러 슬라이더 만들기 실습입니다.
  8) dataBindingTest : 리스트박스를 응용한 데이터 바인딩 실습입니다.
  9) ScottPlotTest : ScottPlot를 이용하여 그래프를 그리는 예제입니다.
+ 10) scottPlotPrac : ScottPlot를 이용하여 그래프를 그리는 실습입니다.
