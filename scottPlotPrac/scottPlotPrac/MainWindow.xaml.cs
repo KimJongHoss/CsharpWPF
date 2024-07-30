@@ -21,13 +21,13 @@ namespace scottPlotPrac
         {
             InitializeComponent();
 
-            double[] dataX = { 1, 2, 3, 4, 5 };
+            double[] dataX = { 6, 12, 18, 24, 30 };
             double[] dataY = { 1, 4, 9, 16, 25 };
             WpfPlot1.Plot.Add.Scatter(dataX, dataY);
 
             // plot data with very different scales
-            var sig1 = WpfPlot1.Plot.Add.Signal(Generate.Sin(mult: 0.01));
-            var sig2 = WpfPlot1.Plot.Add.Signal(Generate.Cos(mult: 100));
+            var sig1 = WpfPlot1.Plot.Add.Signal(Generate.Sin(mult: 5));
+            var sig2 = WpfPlot1.Plot.Add.Signal(Generate.Cos(mult: 0.01));
 
             // tell each signal plot to use a different axis
             sig1.Axes.YAxis = WpfPlot1.Plot.Axes.Left;
@@ -37,12 +37,12 @@ namespace scottPlotPrac
 
 
             WpfPlot1.Plot.Add.Callout("Hello",
-                textLocation: new(7.5, 12),
-                tipLocation: new(dataX[2], dataY[2]));//dataX와 dataY에서 몇번째?
+                textLocation: new(16, 22),
+                tipLocation: new(dataX[3], dataY[3]));//dataX와 dataY에서 몇번째?
 
             WpfPlot1.Plot.Add.Callout("World",
                 textLocation: new(24, 10),
-                tipLocation: new(16, 7));
+                tipLocation: new(15.3, 4.7));
 
             // add additional styling options to each axis
             WpfPlot1.Plot.Axes.Left.Label.Text = "Left Axis";

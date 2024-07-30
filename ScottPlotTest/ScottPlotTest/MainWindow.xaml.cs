@@ -81,8 +81,8 @@ namespace ScottPlotTest
             var sig4 = RightAxis.Plot.Add.Signal(Generate.Cos(mult: 100));
 
             // tell each signal plot to use a different axis
-            sig1.Axes.YAxis = RightAxis.Plot.Axes.Left;
-            sig2.Axes.YAxis = RightAxis.Plot.Axes.Right;
+            sig3.Axes.YAxis = RightAxis.Plot.Axes.Left;
+            sig4.Axes.YAxis = RightAxis.Plot.Axes.Right;
 
             // add additional styling options to each axis
             RightAxis.Plot.Axes.Left.Label.Text = "Left Axis";
