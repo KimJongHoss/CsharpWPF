@@ -18,7 +18,7 @@ namespace ScottPlotTest
             WpfPlot1.Plot.Add.Scatter(dataX, dataY);
             WpfPlot1.Refresh();
 
-            //scottPlat1
+            //scottPlat2
             var myScatter = WpfPlot2.Plot.Add.Scatter(dataX, dataY);
             myScatter.Color = Colors.Green.WithOpacity(.2);
             myScatter.LineWidth = 5;

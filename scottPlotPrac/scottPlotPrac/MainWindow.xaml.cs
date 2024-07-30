@@ -33,6 +33,17 @@ namespace scottPlotPrac
             sig1.Axes.YAxis = WpfPlot1.Plot.Axes.Left;
             sig2.Axes.YAxis = WpfPlot1.Plot.Axes.Right;
 
+            WpfPlot1.Plot.Add.Scatter(dataX, dataY);
+
+
+            WpfPlot1.Plot.Add.Callout("Hello",
+                textLocation: new(7.5, 12),
+                tipLocation: new(dataX[2], dataY[2]));//dataX와 dataY에서 몇번째?
+
+            WpfPlot1.Plot.Add.Callout("World",
+                textLocation: new(24, 10),
+                tipLocation: new(16, 7));
+
             // add additional styling options to each axis
             WpfPlot1.Plot.Axes.Left.Label.Text = "Left Axis";
             WpfPlot1.Plot.Axes.Right.Label.Text = "Right Axis";

@@ -1,3 +1,6 @@
-2024/07/29-11:12:52.764 9f08 Reusing MANIFEST C:\KJH\CsharpWPF\WpfToolTest3\WpfToolTest3\bin\Debug\net8.0-windows\WpfToolTest3.exe.WebView2\EBWebView\Default\Session Storage/MANIFEST-000001
-2024/07/29-11:12:52.765 9f08 Recovering log #4
-2024/07/29-11:12:52.766 9f08 Reusing old log C:\KJH\CsharpWPF\WpfToolTest3\WpfToolTest3\bin\Debug\net8.0-windows\WpfToolTest3.exe.WebView2\EBWebView\Default\Session Storage/000004.log 
+2024/07/29-23:34:18.560 21c Reusing MANIFEST C:\KJH\CsharpWPF\WpfToolTest3\WpfToolTest3\bin\Debug\net8.0-windows\WpfToolTest3.exe.WebView2\EBWebView\Default\Session Storage/MANIFEST-000001
+2024/07/29-23:34:18.560 21c Recovering log #4
+2024/07/29-23:34:18.562 21c Reusing old log C:\KJH\CsharpWPF\WpfToolTest3\WpfToolTest3\bin\Debug\net8.0-windows\WpfToolTest3.exe.WebView2\EBWebView\Default\Session Storage/000004.log 
+2024/07/29-23:38:56.404 7df8 Level-0 table #8: started
+2024/07/29-23:38:56.412 7df8 Level-0 table #8: 14094 bytes OK
+2024/07/29-23:38:56.413 7df8 Delete type=0 #4

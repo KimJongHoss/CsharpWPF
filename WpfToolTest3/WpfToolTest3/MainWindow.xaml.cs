@@ -161,19 +161,19 @@ namespace WpfToolTest3
             webBrowser11.CoreWebView2.Navigate(addresstextBox.Text);
         }
 
-        private void backButton_Click(object sender, RoutedEventArgs e)
+        private void backButton_Click(object sender, RoutedEventArgs e)//뒤로가기 버튼
         {
             webBrowser11.CoreWebView2.GoBack();
         }
 
-        private void forwardButton_Click(object sender, RoutedEventArgs e)
+        private void forwardButton_Click(object sender, RoutedEventArgs e)//앞으로 가기 버튼
         {
             webBrowser11.CoreWebView2.GoForward();
         }
 
        
 
-        private void InitializeWebViewSource()
+        private void InitializeWebViewSource() //주소창에 있는 텍스트를 webBrowser 소스로
         {
             // TextBox의 텍스트를 WebView2의 Source로 설정
             webBrowser11.Source = new Uri(addresstextBox.Text);
