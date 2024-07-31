@@ -11,4 +11,4 @@
  8) dataBindingTest : 리스트박스를 응용한 데이터 바인딩 실습입니다.
  9) ScottPlotTest : ScottPlot를 이용하여 그래프를 그리는 예제입니다.
  10) scottPlotPrac : ScottPlot를 이용하여 그래프를 그리는 실습입니다.
- 11) DataFrameTest DataFrame을 이용하여 표 데이터를 다루는 예제입니다.
+ 11) DataFrameTest DataFrame을 이용하여 표 데이터를 다루는 예제입니다./DataFrame을 이용한 실습을 추가하였습니다.
